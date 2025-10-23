@@ -38,7 +38,7 @@ export default function Main({ onIntroDone }: { onIntroDone?: () => void }) {
             transition={{ duration: 1.4, ease: [0.25, 0.1, 0.25, 1] }}
             className="text-6xl md:text-8xl font-semibold tracking-tight text-center"
           >
-            ALXC
+            
           </motion.h1>
         </motion.div>
       )}
