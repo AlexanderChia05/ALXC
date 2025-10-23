@@ -4,7 +4,7 @@ import Main from '@/sections/Main';
 import Showcase from '@/sections/Showcase';
 import About from '@/sections/About';
 import { useActiveSection } from '@/lib/useActiveSection';
-import { Nav } from '@/components/Nav';
+import Nav from '@/components/Nav';
 import { DotNav } from '@/components/DotNav';
 import { motion } from 'framer-motion';
 
@@ -37,7 +37,7 @@ export default function Page() {
         animate={{ opacity: introDone ? 1 : 0, y: introDone ? 0 : -8 }}
         transition={{ duration: 0.4, ease: 'easeIn' }}
       >
-        <Nav active={active} />
+        <Nav />
       </motion.div>
 
       {/* Dot nav ease-in after intro */}
